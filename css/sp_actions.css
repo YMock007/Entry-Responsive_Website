@@ -1,0 +1,156 @@
+/* Body Styles */
+body {
+    font-family: montserrat, sans-serif; /* Set the font family for the body */
+    background: rgb(192, 190, 190); /* Set the background color using a linear gradient */
+    /* Replace the gradient colors with your desired colors */
+    background: linear-gradient(
+        90deg,
+        #B4EDD2 0%,
+        rgb(71, 78, 95) 22%,
+        rgba(120, 161, 187) 43%,
+        rgba(36, 123, 160, 1) 66%,
+        rgba(112, 193, 179, 1) 85%,
+        rgba(116, 164, 188, 1) 100%
+    );
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    overflow-y: scroll; /* Hide vertical scrollbar */
+    
+}
+body::-webkit-scrollbar {
+    display: none; /* Hide scrollbar in WebKit browsers (e.g., Chrome, Safari) */
+
+}
+  /* Rest of your CSS code... */
+  
+/* font input */
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+/*
+https://www.bing.com/ck/a?!&&p=71a0b307f8775fe8JmltdHM9MTY4NTE0NTYwMCZpZ3VpZD0xYzQwZmJjNS1hOTU0LTYyZDgtMTA3Yy1lOTNhYThmODYzODImaW5zaWQ9NTIwMQ&ptn=3&hsh=3&fclid=1c40fbc5-a954-62d8-107c-e93aa8f86382&psq=montserrat+font+download+for+css&u=a1aHR0cHM6Ly9mb250cy5nb29nbGUuY29tL3NwZWNpbWVuL01vbnRzZXJyYXQ&ntb=1
+*/
+@font-face {
+    font-family: flix;
+    src: url(../fonts/Flix-Normal.ttf);
+         font-weight: bold;
+}
+
+/* Media queries for responsive font size and margins based on different screen sizes */
+ /* Extra small devices (portrait phones) */
+ @media (max-width: 575.98px) {
+    #header {
+        font-size: 14px; /* Adjust as needed */
+        margin-top: 22%;
+    }
+    .container {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 95%;
+    }
+    .table {
+        font-size: 12px; /* Adjust as needed */
+    }
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #header {
+        font-size: 16px; /* Adjust as needed */
+        margin-top: 22%;
+    }
+    .table {
+        font-size: 14px; /* Adjust as needed */
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #header {
+        font-size: 19px; /* Adjust as needed */
+        margin-top: 13%;
+    }
+    .table {
+        font-size: 16px; /* Adjust as needed */
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+    #header {
+        font-size: 22px; /* Adjust as needed */
+        margin-top: 7%;
+    }
+    .table {
+        font-size: 18px; /* Adjust as needed */
+    }
+}
+
+/* Styles for the header section */
+#header {
+    background-image: url('../images/joe-woods-4Zaq5xY5M_c-unsplash.jpg'); /* Set the background image for the header */
+    background-size: cover; /* Scale the background image to cover the entire element */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Disable background image repetition */
+    height: 100vh; /* Set the height of the header to 100% viewport height */
+    display: flex; /* Display header content as a flex container */
+    flex-direction: column; /* Set the flex container direction to column */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    overflow-y: auto; /* Enable vertical scrollbar if needed */
+}
+/* Styles for the h1 element inside the header */
+h1 {
+    text-shadow: 3px 3px 5px #083a3a; /* Add text shadow to h1 element */
+}
+/* Styles for the thead element in the table */
+thead {
+    text-align: left; /* Align text to the left in table header */
+    color: white; /* Set the text color for the table header */
+    font-family: flix; /* Set the font family for the table header */
+    font-size: larger; /* Set the font size for the table header */
+    letter-spacing: 3px; /* Set the letter spacing for the table header */
+}
+
+/* Styles for the th elements in tbody */
+tbody th {
+    text-align: center; /* Center align the text in table body th elements */
+}
+
+/* Styles for the i elements */
+i {
+    vertical-align: middle; /* Vertically align i elements */
+}
+/* Styles for the table container */
+.table-container {
+    position: relative; /* Set the position of the table container */
+    max-width: 100%; /* Set the maximum width of the table container */
+    overflow-x: auto; /* Enable horizontal scrollbar if needed */
+}
+
+/* Styles for the scrollbar in the table container */
+.table-container::-webkit-scrollbar {
+    height: 15px; /* Set the height of the scrollbar */
+}
+
+/* Styles for the scrollbar track in the table container */
+.table-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Set the background color of the scrollbar track */
+}
+
+/* Styles for the scrollbar thumb in the table container */
+.table-container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the background color of the scrollbar thumb */
+}
+
+/* Styles for the scrollbar thumb on hover */
+.table-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Set the background color of the scrollbar thumb on hover */
+}
+
+/* Styles for the border of the table */
+.table-bordered th,
+.table-bordered td {
+    border: 2px solid #F7F7FF; /* Set the border color for table header and data cells */
+}

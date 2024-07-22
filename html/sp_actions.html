@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP Actions</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/navbar_sp_actions.css">
+    <link rel="stylesheet" href="../css/sp_actions.css">
+ 
+
+   
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="sp_actions.html" title="SP">
+                <img src="../images/sp-logo.png" alt="SP" class="img-fluid" style="width: 210px; height: 46px;">
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars fa-2x collapsed" style="color: red;"></i>
+            </button>
+              
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Personal Goals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">My Profile</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="sp_actions.html" id="current">SP Actions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container thick-border rounded-5 mt-5 mb-5" id="header">
+        <h1 class="h1 text-dark" style="font-family: flix; letter-spacing: 5px; margin-top: 0;">A Peak into the History of SP</h1>
+        <div class="figure d-flex align-items-center flex-row mt-5">
+            <figure class="g-0 row">
+                <img src="../images/sp-interactive-map.svg" alt="SP interact" class="fcol-12 col-md-12 col-lg-4 d-flex justify-content-center align-items-center" style="max-width: 90%; height: auto;">
+            <!--https://www.sp.edu.sg/Cwp/assets/images/interactive-map/sp-interactive-map.svg-->
+            <figcaption class="figure-caption col-12 col-md-12 col-lg-8 flex-column flex-col d-flex align-items-center text-black" style=" font-family: monospace; padding-left: 5%; line-height: 25px; letter-spacing: 2px; font-size: 1.4rem; font-weight: bold; margin-bottom: 0;">
+                Singapore Polytechnic (SP) is a post-secondary education institution and statutory board under the purview of the Ministry of Education in Singapore.
+                <ul class="list-group list-group-flush mt-3">
+                    <li class="list-group-item list-group-item-info font-monospace h6 text-dark rounded-3">Established in 1954</li>
+                    <li class="list-group-item list-group-item-info font-monospace h6 text-dark rounded-3">First and oldest polytechnic in Singapore</li>
+                    <li class="list-group-item list-group-item-info font-monospace h6 text-dark rounded-3">Offers full-time diploma courses in a wide range of disciplines</li>
+                    <li class="list-group-item list-group-item-info font-monospace h6 text-dark rounded-3">Ranked among the top polytechnics in the world</li>
+                    <li class="list-group-item list-group-item-info font-monospace h6 text-dark rounded-3">Highly sought-after by employers</li>
+                    <li class="list-group-item list-group-item-info font-monospace h6 text-dark rounded-3">Graduates go on to further their studies at local and overseas universities</li>
+                </ul>
+            </figcaption>
+          </figure>
+        </div>
+    </div>
+    <div class="container thick-border rounded-5 mt-5" style="background-color: #E7E7E7">
+        <div class="jumbotron text-center" style="color: #052A54;">
+            <h1 class="display-4">Environmental Actions By <a href="https://www.sp.edu.sg/" style="text-decoration: none; color: red;">SP</a></h1>
+            <p class="lead">Singapore Polytechnic (SP) is committed to sustainability and environmental conservation. Below are some of the initiatives and actions taken by SP to promote a greener and more sustainable campus.</p>
+        </div>
+        <div class="table-container table-responsive mb-5">
+            <input type="text" id="searchInput" class="form-control mb-3" placeholder="Search actions...">
+            <table class="table table-striped table-primary table-bordered table-hover" id="table1">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Order</th>
+                    <th scope="col">Actions</th>
+                    <th scope="col">Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><i class="fas fa-seedling fa-bounce fa-2x"></i></th>
+                    <td>1</td>
+                    <td>Conserving natural resources</td>
+                    <td style="white-space: nowrap; overflow: auto;"> Singapore Polytechnic has ceased using bottled water at events to reduce plastic waste on campus. In 2023, they will install photo-voltaic panels across campus to harness renewable clean energy.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fas fa-heart fa-fade fa-2x"></i></th>
+                    <td>2</td>
+                    <td>Creating liveable spaces</td>
+                    <td>SP has installed smart sensors that track indoor air quality and human traffic to keep its surroundings comfy and occupants happy.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fas fa-bullhorn fa-beat fa-2x"></i></th>
+                    <td>3</td>
+                    <td>Promoting environmental awareness/td>
+                    <td>SP has a number of initiatives in place to promote environmental awareness among its students, staff and the wider community. These include the SP Environment Club, which organises green campaigns and projects, and the Sustainability Matters programme, which provides students with the opportunity to learn about sustainability and how they can make a difference.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fas fa-cow fa-bounce fa-2x"></i></th>
+                    <td>4</td>
+                    <td>Promoting biodiversity</td>
+                    <td>Singapore Polytechnic is promoting biodiversity on campus by planting trees, shrubs, and flowers, and by creating habitats for wildlife. The polytechnic has also installed a number of bird feeders and bat boxes, and has created a butterfly garden.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="../images/undraw_electricity_k2ft.svg" alt="electricity" class="img-fluid"></th>
+                    <td>5</td>
+                    <td>Reduced energy consumption</td>
+                    <td>Singapore Polytechnic has reduced its energy consumption by 20% since 2008. This has been achieved through a number of initiatives, including installing energy-efficient lighting, upgrading to more efficient air-conditioning systems, and using renewable energy sources such as solar panels.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fas fa-cloud-rain fa-flip fa-2x"></i></th>
+                    <td>6</td>
+                    <td>Using rainwater harvesting</td>
+                    <td>Singapore Polytechnic collects rainwater from its roofs and uses it to flush toilets and water plants, which reduces the amount of water that is drawn from the city's reservoirs.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fas fa-recycle fa-spin-pulse fa-2x"></i></th>
+                    <td>7</td>
+                    <td>Recycling and composting</td>
+                    <td>Singapore Polytechnic encourages its students and staff to recycle and compost, which reduces the amount of waste that goes to landfill.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fas fa-lightbulb fa-shake fa-2x"></i></th>
+                    <td>8</td>
+                    <td>Using energy-efficient appliances</td>
+                    <td>Singapore Polytechnic has replaced its old appliances with energy-efficient models, which reduces the amount of electricity that the school uses.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fas fa-car fa-fade fa-2x"></i></th>
+                    <td>Larry</td>
+                    <td>Promoting green transportation</td>
+                    <td>Singapore Polytechnic encourages its students and staff to use public transportation, bicycles, or walk to school, which reduces the amount of pollution that is caused by cars.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fas fa-school fa-beat fa-2x"></i></th>
+                    <td>9</td>
+                    <td>Educated the community</td>
+                    <td>Singapore Polytechnic has educated the community about sustainability through a number of initiatives, including hosting sustainability workshops, publishing sustainability reports, and participating in sustainability events.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="../images/education.png" alt="Diploma" class="img-fluid"></th>
+                    <td>11</td>
+                    <td>Diplomas featuring Common Core Curriculum (CCC)</td>
+                    <td>The CCC prepares our students for the green economy by exposing them to inter-disciplinary learning experiences and global issues, framed by the SG Green Plan and the United Nations’ Sustainable Development Goals, where they will learn to develop prototype sustainability solutions for real-life issues.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="../images/green-mark-buildings.png" alt="building" class="img-fluid"></th>
+                    <td>12</td>
+                    <td>4 Green Mark Platinum Buildings</td>
+                    <td>T18A, T18B, T3B and the SP Sports Arena have been certified Green Mark Platinum with on-going efforts to certify all 22 buildings in SP by 2025.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="../images/sensors.png" alt="sensors" class="img-fluid"></th>
+                    <td>13</td>
+                    <td>500+ Smart Sensors</td>
+                    <td>Many facilities on campus are monitored with smart sensors to track human traffic and monitor air quality for the health and well-being of students and staff.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="../images/flora.png" alt="flora" class="img-fluid"></th>
+                    <td>14</td>
+                    <td>230 Species of Flora</td>
+                    <td>SP's lush campus is home to an incredible biodiversity of plants including our majestic Brown Woolly Fig Heritage Trees found near Food Court 1.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fa-brands fa-researchgate fa-bounce fa-2x"></i></th>
+                    <td>15</td>
+                    <td>Conducted research</td>
+                    <td>Singapore Polytechnic researchers are conducting research on a variety of sustainability topics, including energy efficiency, water conservation, and waste management. This research helps to develop new technologies and solutions that can be used to reduce the environmental impact of the polytechnic and the wider community.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><i class="fa fa-handshake fa-beat fa-2x"></i></th>
+                    <td>16</td>
+                    <td>Partnered with organizations</td>
+                    <td>Singapore Polytechnic has partnered with a number of organizations, including the National Environment Agency, the Energy Market Authority, and the Water Utilities Authority, to promote sustainability. These partnerships help to share knowledge and resources, and to develop and implement new sustainability initiatives.</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><img src="../images/undraw_goals_re_lu76.svg" alt="Goals" class="img-fluid"></th>
+                    <td>17</td>
+                    <td>Set Goals</td>
+                    <td>Singapore Polytechnic has set a number of sustainability goals, including reducing its energy consumption by 30% by 2030, reducing its water consumption by 20% by 2030, and reducing its waste production by 15% by 2030. These goals help to guide the polytechnic's sustainability efforts and to ensure that it is making progress towards a more sustainable future.</td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="table-container table-responsive mt-5">
+            <table class="table table-striped table-info table-bordered table-hover">
+                <!-- Table head -->
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Programme</th>
+                        <th scope="col">Discription</th>
+                    </tr>
+                </thead>
+                <!-- Table content -->
+                <tbody>
+                    <tr>
+                        <th scope="row"><img src="../images/GREEN-CAMPUS-LOGO.png" alt="Campus" class="img-fluid"></th>
+                        <td>2019</td>
+                        <td>Green Campus Challenge</td>
+                        <td style="white-space: nowrap; overflow: auto;">A competition for students to come up with innovative ideas to make the campus more sustainable. The winning team proposed a number of initiatives, including a rainwater harvesting system and a solar-powered carpark.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" style="font-size: 30px;">&#x1F340;</th>
+                        <td>2020</td>
+                        <td>Green Campus Ambassador</td>
+                        <td>SP partnered with the National Environment Agency (NEA) to trains students to become ambassadors for sustainability on campus. The ambassadors have been involved in a number of activities, such as conducting waste audits and organizing recycling drives.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img src="../images/substain.png" alt="substain" class="img-fluid"></th>
+                        <td>2021</td>
+                        <td>Sustainability Matters programme</td>
+                        <td>It provides students with the opportunity to learn about sustainability and how they can make a difference. The programme includes a number of modules, such as climate change, renewable energy and sustainable design.</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img src="../images/water-dispensers.png" alt="water-dispensers" class="img-fluid"></th>
+                        <td>2022</td>
+                        <td>No Bottled Water</td>
+                        <td>We cultivate eco-conscious habits by encouraging students and staff to use water dispensers around campus and have ceased the use of plastic bottled water at our events</td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><img src="../images/solar_energy.png" alt="Solar-Energy" class="img-fluid"></th>
+                        <td>2022</td>
+                        <td>Solar Energy</td>
+                        <td>Install photo-voltaic panels across campus to harness renewable clean energy.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>             
+    </div>
+
+<footer class="text-center mt-5" style="background-color: black; color: white;">
+    <p class="footer-text" style="text-align: center; clear: both; font-family: flix; font-weight: bolder; font-size: large; letter-spacing: 3px; padding: 20px; margin-bottom: 0;">
+        Made by <a href="profile.html" style="text-decoration: none; color: #f3ca20;">Ye Yint Aung [DCTIP / 06]</a> All rights reserved. &copy; 2023, August.
+    </p>
+</footer>
+
+    <script src="https://kit.fontawesome.com/f01649545e.js" crossorigin="anonymous"></script> 
+    <script src="../javascript/sp_actions_script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

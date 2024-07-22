@@ -1,0 +1,94 @@
+/* Setting for nav-link */
+.navbar-nav .nav-link {
+  color: black; /* Set the text color for nav-links */
+  font-weight: bold; /* Make the text bold */
+  text-transform: uppercase; /* Transform the text to uppercase */
+  transition: all 0.3s ease; /* Apply a smooth transition on all changes */
+  position: relative; /* Set the position to relative for positioning pseudo-elements */
+  margin-left: 10px; /* Add a left margin of 10px to create space between nav-links */
+}
+
+/* Pseudo-elements for nav-link */
+.navbar-nav .nav-link:before,
+.navbar-nav .nav-link:after {
+  content: ''; /* Set an empty content for pseudo-elements */
+  position: absolute; /* Position the pseudo-elements absolutely */
+  width: 0; /* Start with a width of 0 */
+  height: 2px; /* Set the height of the pseudo-elements to create an underline effect */
+  bottom: -2px; /* Position the pseudo-elements below the text to create the underline */
+  transition: all 0.2s ease; /* Apply a smooth transition on all changes */
+  background-color: #00008B; /* Set the background color of the pseudo-elements to create the underline */
+}
+
+/* Pseudo-element before nav-link text */
+.navbar-nav .nav-link:before {
+  left: 0; /* Position the pseudo-element at the left of the text */
+}
+
+/* Pseudo-element after nav-link text */
+.navbar-nav .nav-link:after {
+  right: 0; /* Position the pseudo-element at the right of the text */
+}
+
+/* Styles for nav-link when hovered or focused */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #00008B; /* Change the text color on hover or focus */
+  text-decoration: none; /* Remove the default underline on hover or focus */
+}
+
+/* Styles for pseudo-elements when nav-link is hovered or focused */
+.navbar-nav .nav-link:hover:before,
+.navbar-nav .nav-link:focus:before,
+.navbar-nav .nav-link:hover:after,
+.navbar-nav .nav-link:focus:after {
+  width: 100%; /* Increase the width of the pseudo-elements to create an underline on hover or focus */
+}
+
+/* Styles for active nav-link */
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.active:hover,
+.navbar-nav .nav-link.active:focus {
+  color: #00008B; /* Change the text color for active nav-links */
+  text-decoration: none; /* Remove the default underline for active nav-links */
+}
+
+/* Styles for pseudo-elements when nav-link is active */
+.navbar-nav .nav-link.active:before,
+.navbar-nav .nav-link.active:after {
+  width: 100%; /* Set the width of the pseudo-elements to create an underline for active nav-links */
+}
+
+/* Styles for navbar toggler when focused or hovered */
+.navbar-toggler:not(.collapsed):focus,
+.navbar-toggler:not(.collapsed):hover {
+  outline: none; /* Remove the outline on focus or hover */
+  border: black 3px solid; /* Add a border around the navbar toggler on focus or hover (replace with your desired color) */
+}
+
+/* Styles for the element with the ID 'current' */
+#current {
+  color: #00008B; /* Set the text color for the 'current' element */
+  border-bottom: 2px solid #00008B; /* Add a 2px solid underline to the 'current' element */
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 991.33px) {
+  #navbarSupportedContent {
+      background-color: white; /* Set the background color for the element with the ID 'navbarSupportedContent' for small screens */
+  }
+}
+
+/* Font size change for H1 on smaller screens */
+@media (max-width: 576px) {
+  h1 {
+      font-size: 1.4rem; /* Set the font size to 1.4rem for smaller screens */
+  }
+}
+
+/* Font size change for H1 on larger screens */
+@media (min-width: 576px) {
+  h1 {
+      font-size: 2rem; /* Set the font size to 2rem for larger screens */
+  }
+}

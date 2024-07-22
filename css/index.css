@@ -1,0 +1,100 @@
+/* Set the font family and background color for the body */
+body {
+    font-family: montserrat, sans-serif; /* Use Montserrat font or fallback to generic sans-serif */
+    background-color: #c2beb9; /* Set the background color to a light grayish-brown */
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+    overflow-y: auto; /* Enable the vertical scrollbar when needed */
+}
+
+/* Hide the scrollbar in WebKit-based browsers (Chrome and Safari) */
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Styles for the tree background */
+#tree {
+    background-image: url(../images/tree.png); /* Set the background image for the tree */
+    background-repeat: no-repeat; /* Don't repeat the background image */
+    background-size: 20%; /* Set the size of the background image to 20% of the element's width */
+    background-clip: content-box; /* Clip the background to the content box */
+    background-position: top right; /* Position the background image to the top right */
+}
+
+/* Define custom fonts for the webpage */
+/* Font 'Montserrat' for regular text */
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf); /* URL to the Montserrat font file */
+}
+
+/* Font 'Flix' for bold text */
+@font-face {
+    font-family: flix;
+    src: url(../fonts/Flix-Normal.ttf); /* URL to the Flix font file */
+    font-weight: bold; /* Specify the font weight as bold */
+}
+
+/* Styles for container border */
+.thick-border {
+    border: 5px solid black; /* Set a thick black border */
+    box-shadow: none; /* Remove any box shadow initially */
+    z-index: 1; /* Set the z-index to 1 */
+}
+
+/* Styles for container border when hovered */
+.thick-border:hover {
+    box-shadow: -7px 7px 0px 0px rgba(0, 0, 0, 1); /* Apply a box shadow on hover */
+}
+
+/* Styles for #redpanda element */
+#redpanda {
+    background: url(../images/redpanda.png) top left/ 8% no-repeat content-box; /* Set a background image for #redpanda */
+    z-index: 9999; /* Set the z-index to 9999 */
+}
+
+/* Media queries for container responsive font size */
+@media (max-width: 575.98px) {
+    /* Extra small devices (portrait phones) */
+    .container {
+        font-size: 10px; /* Set the font size to 10px */
+        margin-left: 2.5%; /* Add a left margin of 2.5% */
+        margin-right: 2.5%; /* Add a right margin of 2.5% */
+        width: 95%; /* Set the container width to 95% */
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Small devices (landscape phones) */
+    .container {
+        font-size: 12px; /* Set the font size to 12px */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Medium devices (tablets) */
+    .container {
+        font-size: 16px; /* Set the font size to 16px */
+    }
+}
+
+@media (min-width: 992px) {
+    /* Large devices (desktops) */
+    .container {
+        font-size: 20px; /* Set the font size to 20px */
+    }
+}
+
+/* Keyframe animation to rotate an element */
+@keyframes spin {
+    from {
+        transform: rotate(0deg); /* Starting rotation angle is 0 degrees */
+    }
+    to {
+        transform: rotate(360deg); /* Ending rotation angle is 360 degrees (full circle) */
+    }
+}
+
+/* Styles for h3 headings */
+h3 {
+    text-shadow: 3px 3px 5px #6d6589; /* Add a text shadow to h3 headings */
+}

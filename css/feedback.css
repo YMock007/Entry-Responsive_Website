@@ -1,0 +1,179 @@
+/* This CSS code defines the background of the page. */
+body {
+    background: radial-gradient(circle, rgba(158,120,143,1), rgba(169,179,206,1) 25%, rgba(124,222,220,1) 50%, rgba(114,132,168,1) 75%, rgba(71,73,84,1));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
+    font-family: montserrat, sans-serif;
+}
+
+
+/* This comment explains why the scrollbar is hidden. */    
+body::-webkit-scrollbar {
+    display: none;
+}
+/* This comment explains the font used for the text inputs. */
+/* font input */
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+/*
+*/
+@font-face {
+    font-family: flix;
+    src: url(../fonts/Flix-Normal.ttf);
+}
+
+/* This comment explains the background image for the text box. */
+#backgroundForText {
+    background-image: url(../images/cesar-couto-TIvFLeqZ4ec-unsplash.jpg); 
+    /* https://unsplash.com/photos/TIvFLeqZ4ec */
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+/* This comment explains the background for the form. */
+#formBackground {
+    background-image: linear-gradient(90deg, rgba(115, 147, 126, 1), rgba(235, 212, 203, 1) 50%, rgba(88, 85, 99, 1));
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+}
+
+
+
+
+/* Extra small devices (portrait phones) */
+@media (max-width: 575.98px) {
+    #backgroundForText {
+        margin-top: 22%;
+    }
+    #backgroundForText > h1 {
+        font-size: 3.2rem;
+        letter-spacing: 10px;
+    }
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #backgroundForText {
+        margin-top: 22%;
+    }
+    #backgroundForText > h1 {
+        font-size: 3.8rem;
+        letter-spacing: 10px;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #backgroundForText {
+        margin-top: 13%;
+    }
+    #backgroundForText > h1 {
+        font-size: 4.4rem;
+        letter-spacing: 10px;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+    #backgroundForText {
+        margin-top: 7%;
+    }
+    #backgroundForText > h1 {
+        font-size: 5rem;
+        letter-spacing: 10px;
+    }
+}
+
+/* This CSS code defines the animation for the morph effect. */
+@keyframes morph {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+/* This class is used to apply the morph animation to elements. */
+.morph-animation {
+animation: morph 1s ease;
+}
+
+
+/* Form Style */
+/* Form Container */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+}
+
+/* Input Fields and Textareas */
+.form-control,.input-group-text  {
+    border: 2px solid #333;   
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+/* Floating Input Styles */
+.form-floating input[type="text"] {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Select Dropdown Styles */
+.form-select {
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkbox and Radio Button Styles */
+.form-check-input[type="checkbox"],
+.form-check-input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Checkbox and Radio Label Styles */
+.form-check-label {
+    cursor: pointer;
+}
+
+/* Primary Button Styles */
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Primary Button Hover Styles */
+.btn-primary:hover {
+    background-color: #0c3a03;
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../css/navbar_index.css">
+    <link rel="stylesheet" href="../css/index.css">
+
+    
+    
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" title="Home">
+                <i class="fa fa-globe fa-spin fa-2x" aria-hidden="true" style="color: black;"></i>
+            </a>
+            <h1 class="d-inline" style="font-family: 'Montserrat', sans-serif; color: black; text-shadow: 2px 2px 4px rgba(11, 29, 221, 0.4); margin: 0;">SAVE THE EARTH</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars fa-2x collapsed" style="color: black;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" id="current">Personal Goals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">My Profile</a>
+                    </li>                  
+                    <li class="nav-item">
+                        <a class="nav-link" href="sp_actions.html">SP Actions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center" style="margin-top: 13%;" id="tree">
+        <img src="../images/globe.png" alt="Globe" class="img-fluid ms-auto globe" style="width: 35%; height: auto;" onmouseover="startSpinning()" onmouseout="stopSpinning()">
+        <h2 class="h2 mt-5" style="font-family: cursive;"><a class="emoji" href="index.html" style="text-decoration: none;">&#x1F30D;</a> My 3 Personal Goals to Save the Earth</h2>
+    </div>
+    <div class="container mt-5 thick-border rounded-5 p-4">
+        <div class="figure d-flex align-items-center flex-row">
+            <figure class="row g-0">
+              <div class="col-12 col-md-5 col-lg-4 d-flex justify-content-center align-items-center">
+                <img src="../images/3finger.png" alt="Finger" class="figure-img img-fluid" style="max-width: 50%; height: auto;">
+                <!-- https://pin.it/4E0Zrrm -->
+              </div>
+              <figcaption class="figure-caption col-12 col-md-7 col-lg-8 flex-column flex-col d-flex align-items-center">
+                <h3 class="h1 mb-4 fw-bold" style="color: black; font-family: flix; letter-spacing: 3px;">Introduction:</h3>
+                <p class="text-start font-monospace h5 text-dark">     
+                  Hello to everybody! I'm eager to share my ideas on how we can help save the Earth as a first-year student in <cite><a class="link link-primary" id="poly" href="https://www.sp.edu.sg/" style="text-decoration: none;">Singapore Polytechnic</a></cite>.
+                </p>
+                <p class="text-start font-monospace h5 text-dark">  
+                  For the survival of our planet and the welfare of future generations, sustainable development is essential. We can all work together to alter a lot of things by implementing tiny but significant changes in our daily lives. Here are three objectives I've set for myself personally to contribute to sustainable development.
+                </p>
+              </figcaption>
+            </figure>
+        </div>          
+    </div>
+    <div class="container mt-5 thick-border rounded-5 p-4">
+        <div class="figure d-flex align-items-center flex-row">
+            <figure class="row g-0">
+              <div class="col-12 col-md-12 col-lg-4 d-flex justify-content-center align-items-center">
+                <img src="../images/energy_efficiency.png" alt="Energy_Efficiency" class="figure-img img-fluid" style="max-width: 90%; height: auto;">
+                <!-- https://pin.it/2qGGr8Y -->
+              </div>
+              <figcaption class="figure-caption col-12 col-md-12 col-lg-8 flex-column flex-col d-flex align-items-center">
+                <h3 class="h1 mb-4 fw-bold" style="color: black; font-family: flix; letter-spacing: 3px;">Objective 1: Increasing Energy Efficiency</h3>
+                <p class="text-start font-monospace h5 text-dark">        
+                    Environmental deterioration is largely a result of energy consumption. To actively promote energy efficiency at home and at the institution is therefore my primary objective. To do this, I intend to: 
+                </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item list-group-item-action font-monospace h5 text-dark rounded-3">
+                            Promote the adoption of energy-saving gadgets like LED lamps and intelligent power strips.
+                        </li>
+                        <li class="list-group-item list-group-item-action font-monospace h5 text-dark rounded-3">
+                            Inform my peers of the value of unplugging electronics and lights when not in use.
+                        </li>
+                        <li class="list-group-item list-group-item-action font-monospace h5 text-dark rounded-3">
+                            Look into possibilities for installing renewable energy systems, such solar panels, on the college's property.
+                        </li>
+                    </ul>
+              </figcaption>
+            </figure>
+        </div>          
+    </div>
+    <div class="container mt-5 thick-border rounded-5 p-4">
+        <div class="figure d-flex align-items-center flex-row">
+            <figure class="row g-0">
+              <div class="col-12 col-md-12 col-lg-4 d-flex justify-content-center align-items-center">
+                <img src="../images/waste_reduction.png" alt="Waste_Reduct" class="figure-img img-fluid" style="max-width: 90%; height: auto;">
+                <!-- https://pin.it/70ReOxd -->
+              </div>
+              <figcaption class="figure-caption col-12 col-md-12 col-lg-8 flex-column flex-col d-flex align-items-center">
+                <h3 class="h1 mb-4 fw-bold" style="color: black; font-family: flix; letter-spacing: 3px;">Objective 2: Cutting Back on Waste Production</h3>
+                <p class="text-start font-monospace h5 text-dark">        
+                    Our environment is being endangered by the production of excessive trash. The following objectives have been set by me to address this issue: 
+                </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item list-group-item-success font-monospace h5 text-dark rounded-3">
+                            Minimize the usage of single-use items and choose reusable alternatives by adhering to the 3Rs (Reduce, Reuse, Recycle).
+                        </li>
+                        <li class="list-group-item list-group-item-success font-monospace h5 text-dark rounded-3">
+                            Participate in recycling initiatives at my campus and inspire my peers to do the same.
+                        </li>
+                        <li class="list-group-item list-group-item-success font-monospace h5 text-dark rounded-3">
+                            Promote the usage of compost bins in the college's cafeteria and gardens to raise knowledge of composting and its advantages.
+                        </li>
+                    </ul>
+              </figcaption>
+            </figure>
+        </div>          
+    </div>
+    <div class="container mt-5 thick-border rounded-5 p-4">
+        <div class="figure d-flex align-items-center flex-row">
+            <figure class="row g-0">
+              <div class="col-12 col-md-12 col-lg-4 d-flex justify-content-center align-items-center">
+                <img src="../images/substainable_transportation.png" alt="Transport" class="figure-img img-fluid" style="max-width: 100%; height: auto;">
+                <!-- https://pin.it/5M8mKwa -->
+              </div>
+              <figcaption class="figure-caption col-12 col-md-12 col-lg-8 flex-column flex-col d-flex align-items-center">
+                <h3 class="h1 mb-4 fw-bold" style="color: black; font-family: flix; letter-spacing: 3px;">Objective 3: Supporting Sustainable Transportation</h3>
+                <p class="text-start font-monospace h5 text-dark">        
+                    Air pollution and greenhouse gas emissions are largely caused by transportation. I want to encourage sustainable transportation by:
+                </p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item list-group-item-primary font-monospace h5 text-dark rounded-3">
+                            Whenever possible, especially for short distances, choose to walk or ride a bike.
+                        </li>
+                        <li class="list-group-item list-group-item-primary font-monospace h5 text-dark rounded-3">
+                            Encourage my peers to use public transit and carpooling to cut down on the amount of individual automobile journeys to campus.
+                        </li>
+                        <li class="list-group-item list-group-item-primary font-monospace h5 text-dark rounded-3">
+                            Look into the possibilities of installing electric vehicle charging stations or bike-sharing programs on campus.
+                        </li>
+                    </ul>
+              </figcaption>
+            </figure>
+        </div>          
+    </div>
+    <div class="container mt-5 thick-border rounded-5 p-4 alert alert-danger mb-5">
+        <figure class="row g-0" id="redpanda">
+            <div class="col-12 col-md-12 col-lg-4 d-flex justify-content-center align-items-center">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../images/cause_effect.png" class="img-fluid w-100" alt="cause_effect" style="max-width: 100%; height: auto;">
+                            <!-- https://pin.it/5lSfE8T -->
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/climate_crisis.png" class="img-fluid d-block w-100" alt="Climate_Crisis" style="max-width: 100%; height: auto;">
+                            <!-- https://pin.it/5A8NkET -->
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/Biodiversity_loss.png" class="img-fluid d-block w-100" alt="Biodiversity_Loss" style="max-width: 100%; height: auto;">
+                            <!-- https://pin.it/5A8NkET -->
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/environmental_degradation.jpeg" class="img-fluid d-block w-100" alt="environmental_degradation" style="max-width: 100%; height: auto;">
+                            <!-- https://pin.it/2H0VKtd -->
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../images/resource_depletion.png" class="img-fluid d-block w-100" alt="Resource_Depletion" style="max-width: 100%; height: auto;">
+                            <!-- https://pin.it/6p3wD5v -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <figcaption class="figure-caption col-12 col-md-12 col-lg-8 flex-column flex-col d-flex align-items-center">
+                <h3 class="h1 mb-4 fw-bold" style="color: black; font-family: flix; letter-spacing: 3px;">Consequences</h3>
+                    <p class="text-start font-monospace h5 text-dark">
+                        If there is no timely actions , there will be extreme result including but not limited to <strong>The Climate Crisis</strong>, <strong>Loss of Biodiversity</strong>, <strong>Environmental Degradation</strong>, <strong>Resource Depletion</strong>. In addition, there are manys major threats to human health and the environment. To avoid these dire consequences, it is important to take immediate and collective action to mitigate the damages caused by human activities. This includes:
+                    </p>
+                    <ol class="list-group list-group-flush list-group-numbered">
+                        <li class="list-group-item list-group-item-warning font-monospace h5 text-dark rounded-3">
+                            Adopting sustainable practices
+                        </li>
+                        <li class="list-group-item list-group-item-warning font-monospace h5 text-dark rounded-3">
+                            Transitioning to clean and renewable energy sources
+                        </li>
+                        <li class="list-group-item list-group-item-warning font-monospace h5 text-dark rounded-3">
+                            Conserving biodiversity
+                        </li>
+                        <li class="list-group-item list-group-item-warning font-monospace h5 text-dark rounded-3">
+                            Implementing policies that prioritize environmental protection
+                        </li>
+                    </ol>
+            </figcaption>
+        </figure>          
+    </div>
+    <div class="container mt-5 thick-border rounded-5 p-4 alert alert-info">
+        <div class="row mb-3">
+            <div class="col">
+                    <h3 class="h1 mb-4 fw-bold" style="color: black; font-family: flix; letter-spacing: 3px;">Conclusion:</h3>
+                    <p class="text-start font-monospace h5 text-dark">  
+                        We all have a responsibility to save the Earth by achieving three personal goals to build a greener, more sustainable future. Together, we can make a difference for future generations.
+                    </p>
+            </div>
+        </div>
+    </div>
+    <footer class="text-center mt-5" style="background-color: #1c2331; color: white;">
+        <p class="footer-text" style="text-align: center; clear: both; font-family: flix; font-weight: bolder; font-size: large; letter-spacing: 3px; padding: 20px; margin-bottom: 0;">
+            Made by <a href="profile.html" style="text-decoration: none; color: red;">Ye Yint Aung [DCTIP / 06]</a> All rights reserved. &copy; 2023, August.
+        </p>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/f01649545e.js" crossorigin="anonymous"></script> 
+    <script src="../javascript/index_script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

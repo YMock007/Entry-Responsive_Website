@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f01649545e.js" crossorigin="anonymous"></script> 
+    <script src="../javascript/profile_script.js"></script>
+    <link rel="stylesheet" href="../css/navbar_profile.css">
+    <link rel="stylesheet" href="../css/profile.css">
+</head>
+<body>
+    <!-- Important! To change the text size -->
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active carousel-image bg-img-1">
+            <div class="carousel-caption d-block caption-up">
+                <div class="card bg-transparent border-0">
+                    <div class="card-body">
+                        <img src="../images/profile_face.jpg" alt="Face" class="rounded-circle img-fluid img-responsive">
+                        <h5 class="card-title h1 mb-4 fw-bold" style="color: #FCFBFC; font-family: flix; letter-spacing: 4px;">Ye Yint Aung</h5>
+                        <h5 class="card-title h2 mb-4 fw-bold" style="color: #FCFBFC; font-family: flix; letter-spacing: 4px;">Student, Front End Dev & Learner</h5>
+                        <div class="row g-0">
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class="btn btn-link">About Me</button>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class="btn btn-link">Interest &amp; value</button>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4" class="btn btn-link">Personality</button>
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-3">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5" class="btn btn-link">Contact Me</button>
+                            </div>
+                          </div>                          
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image bg-img-2" id="about_me" data-slide="1">
+            <div class="carousel-caption d-block caption-up">
+                <div class="card bg-transparent border-0">
+                    <div class="card-body">
+                        <h5 class="card-title h1 mb-4 fw-bold" style="color: #FCFBFC; font-family: flix; letter-spacing: 4px;">Who am I ?</h5>
+                        <p class="card-text text-start font-monospace h5 text-light">
+                            Hello Everyone, my name is Ye Yint Aung, also known as Ramm, I am a 20-year-old male from Myanmar who has moved to Sinagpore to improve education and explore new opportunities. Despite the challenges of Singapore life compared to Myanmar, I prefers to stay in Singapore to explore new challenges and survive independently.
+                        </p>
+                        <p class="card-text text-start font-monospace h5 text-light">  
+                            I also plans to attend university after completing Polytechnic and is open to studying with anyone who wants to join. Previously, I attended the 1st semester at Electronic and Computer Engineering at a local university in Myanmar. However, due to Covid 19 and the political situation in Myanmar, my studies were halted for three years.
+                        </p>
+                        <p class="card-text text-start font-monospace h5 text-light">
+                            I am excited for the future and confident in my ability to achieve goals and make a difference in the world. I am also confident to grow and learn as a person.
+                        </p>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image bg-img-3" id="Interest_Value" data-slide="2">
+            <div class="carousel-caption d-block caption-up">
+                <div class="card bg-transparent border-0">
+                    <div class="card-body">
+                      <h5 class="card-title h2 mb-1 fw-bold" style="color: #FCFBFC; font-family: flix; letter-spacing: 4px;">Interest</h5>
+                      <ul class="card-text text-start font-monospace h5 text-light">
+                        <li class="h5 font-monospace text-light">
+                            Learning: I like learning new things, and I'm constantly seeking for innovative methods to increase my knowledge.
+                        </li>
+                        <li class="h5 font-monospace text-light">
+                            Creativity: I adore being creative and finding ways to express myself via writing, music, and art.
+                        </li>
+                        <li class="h5 font-monospace text-light">
+                            Assisting others: Making a difference in people's lives is something I love to do and find to be really satisfying.
+                        </li>
+                        <li class="h5 font-monospace text-light">
+                            Traveling: I enjoy seeing new places and getting to know locals. I adore being outside and find it to be really tranquil and calming.
+                        </li>
+                      </ul>
+                      <h5 class="card-title h2 mb-1 fw-bold" style="color: #FCFBFC; font-family: flix; letter-spacing: 4px;">value</h5>
+                      <ul class="card-text text-start font-monospace h5 text-light">
+                        <li class="h5 font-monospace text-light">
+                            Kindness: Even when people are not kind to you, I think it is necessary to be kind to them.
+                        </li>
+                        <li class="h5 font-monospace text-light">
+                            Compassion: Being compassionate towards others, especially those who are less fortunate, is crucial, in my opinion.
+                        </li>
+                        <li class="h5 font-monospace text-light">
+                            Honesty: Even though it is challenging, I think it is crucial to be honest.
+                        </li>
+                        <li class="h5 font-monospace text-light">
+                            Integrity: Integrity, which I define as doing the right thing even when no one is looking, is something I think is crucial.
+                        </li>
+                        <li class="h5 font-monospace text-light">
+                            Loyalty: Being loyal to your friends, family, and loved ones is crucial, in my opinion.                        </li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image bg-img-4" id="Personality" data-slide="3">
+            <div class="carousel-caption d-block caption-up">
+                <div class="card bg-transparent border-0 ">
+                    <div class="card-body">
+                    <h5 class="card-title h1 mb-4 fw-bold" style="color: #FCFBFC; font-family: flix; letter-spacing: 4px;">Personality</h5>
+                        <ul class="card-text text-start font-monospace h5 text-light">
+                            <li class="h5 font-monospace text-light">
+                                Detail-oriented: I pay close attention to every little thing to ensure that the work that I done are accurate and precise.
+                            </li>
+                            <li class="h5 font-monospace text-light">
+                                Continuous learner: I'm dedicated to remaining current on the newest technology and business trends, continually enhancing my knowledge and abilities.
+                            </li>
+                            <li class="h5 font-monospace text-light">
+                                Collaboration: Collaboration is a strength of mine, and I work well with others in teams to accomplish project objectives.
+                            </li>
+                            <li class="h5 font-monospace text-light">
+                                Persistence: I approach assignments with patience and dedication, working tirelessly to identify the best answers and provide high-quality outcomes.
+                            </li>
+                            <li class="h5 font-monospace text-light">
+                                Creative: I have the capacity to think creatively and generate original ideas which would make my work one step higher.
+                            </li>
+                            <li class="h5 font-monospace text-light">
+                                Adaptability: I quickly learn new skills and can them to take on any task.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-image bg-img-5" id="contact" data-slide="4">
+            <div class="carousel-caption d-block caption-up">
+                <div class="card bg-transparent border-0 ">
+                    <div class="card-body">
+                        <h5 class="card-title h1 mb-4 fw-bold" style="color: #FCFBFC; font-family: flix; letter-spacing: 4px;">Contact Me</h5>
+                        <ul class="list-group text-start font-monospace h5 text-light">
+                            <li class="list-group-item list-group-item-action h5 font-monospace text-dark text-start">
+                                Name:&nbsp;<a class="contact-link" href="#about_me" ><i class="fa fa-user "></i>&nbsp;Ye Yint Aung ( Ramm )</a>
+                            </li>
+                            <li class="list-group-item list-group-item-action h5 font-monospace text-dark text-start">
+                                Email:&nbsp;<a class="contact-link" href="mailto:yeyint.23@ichat.sp.edu.sg"><i class="fa fa-envelope"></i>&nbsp;Ichat Email</a>
+                            </li>
+                            <li class="list-group-item list-group-item-action h5 font-monospace text-dark text-start">
+                                Phone:&nbsp;<a class="contact-link" href="tel:+6586162452"><i class="fa fa-phone">&nbsp;</i>Phone</a>
+                            </li>
+                            <li class="list-group-item list-group-item-action h5 font-monospace text-dark text-start">
+                                WhatsApp:&nbsp;<a class="contact-link" href="https://wa.me/+6586162452"><i class="fa fa-whatsapp"></i>&nbsp;WhatsApp</a>
+                            </li>
+                            <li class="list-group-item list-group-item-action h5 font-monospace text-dark text-start">
+                                Facebook:&nbsp;<a class="contact-link" href="https://www.facebook.com/yairyientaung944/"><i class="fa fa-facebook"></i>&nbsp;Facebook</a>
+                            </li>
+                            <!--Above 4 are from https://remixicon.com/-->
+                        </ul>
+                        <footer class="text-center mt-5" style="background-color: #FCFBFC; color: #1c2331;">
+                            <p class="footer-text" style="text-align: center; clear: both; font-family: flix; font-weight: bolder; font-size: large; letter-spacing: 3px; padding: 10px; margin-bottom: 0;">
+                                Made by <a href="profile.html" style="text-decoration: none; color: red;">Ye Yint Aung [DCTIP / 06]</a> All rights reserved. &copy; 2023, August.
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-transparent shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" title="Home">
+                <i class="fa fa-house fa-beat fa-2x" aria-hidden="true" style="color: #FCFBFC;"></i>
+            </a>
+            <h1 class="d-inline" style="font-family: 'Montserrat', sans-serif; color: #FCFBFC; text-shadow: 2px 2px 4px rgba(11, 29, 221, 0.4); margin: 0;">Ye Yint Aung</h1>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars fa-2x collapsed" style="color: #FCFBFC;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Personal Goals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html" id="current">My Profile</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="sp_actions.html">SP Actions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="feedback.html">Feedback</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

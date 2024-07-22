@@ -1,0 +1,171 @@
+/* Body Styles */
+body {
+    font-family: montserrat, sans-serif ;
+    background-color: #c2beb9;
+    height: 100vh;
+    overflow-y: hidden;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* font input */
+@font-face {
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+/*
+https://www.bing.com/ck/a?!&&p=71a0b307f8775fe8JmltdHM9MTY4NTE0NTYwMCZpZ3VpZD0xYzQwZmJjNS1hOTU0LTYyZDgtMTA3Yy1lOTNhYThmODYzODImaW5zaWQ9NTIwMQ&ptn=3&hsh=3&fclid=1c40fbc5-a954-62d8-107c-e93aa8f86382&psq=montserrat+font+download+for+css&u=a1aHR0cHM6Ly9mb250cy5nb29nbGUuY29tL3NwZWNpbWVuL01vbnRzZXJyYXQ&ntb=1
+*/
+@font-face {
+    font-family: flix;
+    src: url(../fonts/Flix-Normal.ttf);
+         font-weight: bold;
+}
+
+/* Main Background Carousel Css */
+.bg-img-1 {
+    background-image: url(../images/profile_background_1.jpg);
+    /* https://pin.it/6WQ1bvG */
+}
+  
+.bg-img-2 {
+    background-image: url(../images/profile_background_2.jpeg);
+    /* https://pin.it/4BBTK53 */
+}
+  
+.bg-img-3 {
+    background-image: url(../images/profile_background_3.jpeg);
+    /* https://pin.it/4YLOZp8 */
+}
+  
+.bg-img-4 {
+    background-image: url(../images/profile_background_4.png);
+    /* https://pin.it/n6IAenJ */
+}
+.bg-img-5 {
+    background-image: url(../images/profile_background_5.jpeg);
+    /* https://pin.it/6xRZGXI */
+}
+.carousel-image {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Carousel Caption Position */
+.caption-up {
+    bottom: auto;
+    top: 10%;
+}
+
+/* Carousel Caption Responsive font size */
+.carousel-caption {
+    overflow-y: auto;
+    max-height: 80vh; /* Adjust the maximum height as per your requirement */
+}
+
+/* Hide scrollbar in WebKit browsers for the carousel caption */
+.carousel-caption::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+/* Media queries for responsive font size in carousel caption */
+@media (max-width: 575.98px) {
+    /* Extra small devices (portrait phones) */
+    .carousel-caption {
+      font-size: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Small devices (landscape phones) */
+    .carousel-caption {
+      font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Medium devices (tablets) */
+    .carousel-caption {
+      font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    /* Large devices (desktops) */
+    .carousel-caption {
+      font-size: 30px;
+    }
+}
+
+/* Responsive image styles */
+@media (max-width: 575.98px) {
+    /* CSS rules for extra small devices */
+    .img-responsive {
+        max-width: 40%;
+    }
+}
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* CSS rules for small devices */
+    .img-responsive {
+        max-width: 30%;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* CSS rules for medium devices */
+    .img-responsive {
+        max-width: 30%;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) {
+    /* CSS rules for large devices */
+    .img-responsive {
+        max-width: 20%;
+    }
+}
+
+/* Responsive image styles */
+/* Similar media queries for different screen sizes to adjust image responsiveness */
+
+/* Nav link in carousel 1 */
+.btn-link {
+    display: block; /* Display as block-level element to occupy full width */
+    color: white; /* Set the text color for the carousel link */
+    padding: 5px 2.5%; /* Add padding to the carousel link */
+    text-decoration: none; /* Remove underline from the carousel link */
+    margin: 0px 30px; /* Set margins for the carousel link */
+    font-size: 1.5rem; /* Set the font size for the carousel link */
+}
+
+.carousel-link:hover,
+.carousel-link:active {
+    border: black 5px double; /* Add a double border on hover or active */
+    color: black; /* Change the text color on hover or active */
+    background: #C8E9E9; /* Set the background color on hover or active */
+    border-radius: 10px; /* Add border-radius to create rounded corners */
+}
+
+/* Contact Link CSS settings */
+.contact-link {
+    color: black; /* Set the text color for the contact link */
+    text-decoration: none; /* Remove underline from the contact link */
+}
+
+.contact-link:hover {
+    background: #FCFBFC; /* Set the background color on hover */
+    color: #6600ff; /* Change the text color on hover */
+    border: black 3px solid; /* Add a border on hover */
+    background: #C8E9E9; /* Set the background color on hover */
+    border-radius: 10px; /* Add border-radius to create rounded corners */
+    padding: 5px 10px; /* Add padding to the contact link on hover */
+}
+
